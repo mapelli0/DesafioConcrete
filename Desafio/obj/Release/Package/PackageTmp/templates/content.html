@@ -1,0 +1,21 @@
+﻿<div class="row">    
+    <div infinite-scroll="viewModel.paginacao()" infinite-scroll-distance="3">
+        <div class="row" ng-repeat="pagina in viewModel.session.Paginas">
+            <div class="col-lg-4 col-sm-6 col-xs-12" ng-repeat="shot in pagina.Shots">
+                <a href="#">
+                    <div class="row">{{shot.title}}</div>
+                    <div class="row"><img ng-click="viewModel.open(shot)" class="thumbnail img-responsive" src="{{shot.image_url}}" /></div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="panel panel-danger" ng-show="viewModel.session.erros.length">
+        <div class="panel-heading">
+            <span class="glyphicon glyphicon-fire"></span> <span><strong>Ops, Ocorreu algum problema!</strong></span>
+        </div>
+        <div class="panel-body">
+            <alert ng-repeat="erro in viewModel.session.erros" type="danger" close="viewModel.closeAlert($index)">{{erro}}</alert>
+        </div>
+    </div>
+</div>

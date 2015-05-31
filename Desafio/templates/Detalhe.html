@@ -1,0 +1,20 @@
+﻿<div class="modal-content">
+    <div class="modal-body">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-10">
+                        <div class="row">{{$parent.viewModel.shotSelecionado.title}} by {{$parent.viewModel.shotSelecionado.player.name}}</div>
+                        <div class="row" ng-bind-html="$parent.viewModel.shotSelecionado.description"></div>
+                    </div>
+                    <div class="col-md-2">
+                        <img class="img-circle img-responsive" src="{{$parent.viewModel.shotSelecionado.player.avatar_url}}" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12"><img class=" img-responsive" src="{{$parent.viewModel.shotSelecionado.image_url}}" /></div>                        
+                </div>
+            </div>
+        </div>
+    </div>    
+</div>

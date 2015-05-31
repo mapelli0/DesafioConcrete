@@ -1,0 +1,6 @@
+F:\Users\Alf\Trabalho\Concrete\Desafio\Desafio\bin\Desafio.dll.config
+F:\Users\Alf\Trabalho\Concrete\Desafio\Desafio\bin\Desafio.dll
+F:\Users\Alf\Trabalho\Concrete\Desafio\Desafio\bin\Desafio.pdb
+F:\Users\Alf\Trabalho\Concrete\Desafio\Desafio\obj\Release\Desafio.csprojResolveAssemblyReference.cache
+F:\Users\Alf\Trabalho\Concrete\Desafio\Desafio\obj\Release\Desafio.dll
+F:\Users\Alf\Trabalho\Concrete\Desafio\Desafio\obj\Release\Desafio.pdb
